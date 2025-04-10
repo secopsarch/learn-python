@@ -1,2 +1,2 @@
 # learn-python
-basic python homelabs and learning non-programmer
+basic python homelabs for learning - non-programmer
