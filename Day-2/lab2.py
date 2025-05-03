@@ -31,7 +31,7 @@
 # print(2**4)
 # print(23 // 2)
 
-# #PEMDASLR
+# PEMDASLR
 
 # print(3 * (3 + 3) / 3 - 3)
 
