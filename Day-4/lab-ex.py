@@ -1,7 +1,5 @@
 import random
 
-from hamcrest import less_than
-
 rock = r'''
  _______  _______  _______  _       
 (  ____ )(  ___  )(  ____ \| \    /\
@@ -82,6 +80,7 @@ images = [rock, papers, scissors]
 user_choice = int(input('what do you choose? Type "0" for Rock, "1" for Paper, "2" for Scissors. \n '))
 if user_choice >=0 and user_choice <=2:
     print(images[user_choice])
+
 computer_choice = random.randint(0, 2)
 print(f"computer chose: ")
 print(images[computer_choice])
