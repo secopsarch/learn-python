@@ -17,19 +17,17 @@ number_of_players = ['2', '3', '4', '5', '6', '7', '8', '9', '10']
 
 deck_of_cards = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52']
 
-cards_per_player = ['1', '2', '3', '4', '5']
+cards_per_player = ['1', '2', '3']
 
-deck = []
+players = int(input("Enter the number of players? between 2-10: \n"))
+cards = int(input("How many cards each player should recieve? between 1-3: \n"))
 
-input_a = int(input("Enter the number of players? between 2-10: \n"))
-input_b = int(input("How many cards each player should recieve? between 1-5: \n"))
-
-# for i in input_a:
-#     deck.append(random.choice(input_a))
+for p in players:
+    cards_list = random.choice(players * cards)
 
 random.shuffle(deck_of_cards)
-cards = ''.join(deck_of_cards)
-print(f"the number of players: {cards}")
+cards_each = ''.join(deck_of_cards)
+print(f"number of cards per player: {cards_each}")
 #deck = 
 
 # for n in a:
