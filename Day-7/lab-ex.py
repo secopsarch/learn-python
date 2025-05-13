@@ -1,17 +1,12 @@
 # Break complex problem to Flowchart
 import random
-stages = ['''
-
-
-''']
-
-word_list = ['poem', 'oracle', 'space', 'economy', 'love', 'culture']
+from hangman_words import word_list
+from hangman_art import stages, logo
 
 lives = 6
 
-random.shuffle(word_list)
-random_word = random.choices(word_list)
-chosen_word = ''.join(random_word) 
+print(logo)
+chosen_word = random.choices(word_list)
 print(chosen_word)
 
 placeholder = ""
@@ -48,6 +43,4 @@ while not game_over:
         game_over = True
         print("you win!") 
 
-#    print(stages[lives])
-
-
+    print(stages[lives])
