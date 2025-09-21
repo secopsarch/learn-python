@@ -33,4 +33,4 @@ def calculate_love_score(name1, name2):
     score = int(str(first_digit) + str(second_digit))
     print(score)
     
-calculate_love_score("Arun Bharathwaj", "Pavithra")    
+calculate_love_score("Romeo", "Julia")    
